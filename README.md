@@ -1,64 +1,114 @@
-Agentes Inteligentes
-Este repositório tem como objetivo o desenvolvimento de uma aplicação baseada em agentes inteligentes utilizando a plataforma CREWAI. Como parte da atividade proposta pelo professor, foi realizado um estudo sobre a ferramenta, incluindo sua instalação e funcionamento.
+# Agentes Inteligentes – Plataforma CREWAI
 
-📌 Instalação
-Antes de iniciar o desenvolvimento, foi necessário garantir que a versão do Python instalada fosse compatível com a plataforma CREWAI. Para isso, foi escolhida a versão 3.11.0, que atende aos requisitos necessários.
+Este repositório tem como objetivo o desenvolvimento de uma aplicação baseada em agentes inteligentes utilizando a plataforma CREWAI. O projeto consiste na criação de três agentes que auxiliarão alunos no processo de aprendizado, fornecendo planos de estudo personalizados, conteúdos relevantes e mensagens motivacionais.
 
-Passo 1: Verificando a versão do Python
-Para conferir a versão instalada do Python, utilize o seguinte comando:
+## 📌 Objetivos do Projeto
 
+O projeto visa explorar a construção de agentes inteligentes que interagem de forma autônoma para melhorar a experiência de estudo dos alunos. Cada agente desempenha um papel específico para tornar o aprendizado mais eficiente e motivador.
+
+### 🧠 Agentes Inteligentes Desenvolvidos
+
+1. **Coordenador de Estudos**  
+   📚 Responsável por criar um plano de estudos personalizado para o aluno, considerando suas dificuldades em determinadas disciplinas.
+
+2. **Especialista em Conteúdo**  
+   🔍 Pesquisará vídeos no YouTube sobre o assunto estudado e retornará os mais relevantes, garantindo materiais de qualidade para o aprendizado.
+
+3. **Motivador**  
+   💡 Enviará mensagens motivacionais para incentivar o aluno a manter o foco e a disciplina nos estudos.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python 3.11.0**  
+- **CREWAI** (Plataforma para criação de agentes inteligentes)  
+- **YouTube API** (Para busca de vídeos educativos)  
+- **Ambiente virtual (venv)**  
+- **Gerenciamento de pacotes com PIP**  
+
+---
+
+## 📌 Instalação e Configuração
+
+Antes de iniciar o desenvolvimento, é necessário configurar o ambiente corretamente.
+
+### Passo 1: Verificando a versão do Python
+
+O projeto requer **Python 3.11.0**. Para verificar a versão instalada:
+
+```sh
 python --version
+```
 
-Se for necessário instalar ou atualizar o Python, faça o download da versão adequada no site oficial: Python Downloads.
+Se necessário, faça o download da versão correta em: [Python Downloads](https://www.python.org/downloads/).
 
-Passo 2: Atualizando o PIP
+### Passo 2: Atualizando o PIP
 
-Após garantir a versão correta do Python, foi realizada a atualização do PIP (gerenciador de pacotes do Python) para a versão mais recente, utilizando o comando:
+Para garantir que as dependências sejam instaladas corretamente, atualize o **PIP**:
 
+```sh
 pip install --upgrade pip
+```
 
-Passo 3: Configuração do Ambiente Virtual
+### Passo 3: Criando e Ativando o Ambiente Virtual
 
-Para manter as dependências organizadas e evitar conflitos com outros projetos, foi criado um ambiente virtual específico para este projeto. Isso pode ser feito com os seguintes comandos:
+Para manter as dependências organizadas e evitar conflitos, utilize um **ambiente virtual**:
 
-Criando o ambiente virtual
-
+#### Criando o ambiente virtual:
+```sh
 python -m venv venv
+```
 
-Ativando o ambiente virtual
-Windows:
-venv\Scripts\activate
+#### Ativando o ambiente virtual:
+- **Windows**:
+  ```sh
+  venv\Scripts\activate
+  ```
+- **Linux/macOS**:
+  ```sh
+  source venv/bin/activate
+  ```
 
-Linux/macOS:
-source venv/bin/activate
+Após a ativação, todas as bibliotecas instaladas estarão isoladas dentro desse ambiente.
 
-Uma vez ativado o ambiente virtual, todas as bibliotecas instaladas estarão isoladas do sistema global.
+### Passo 4: Instalando Dependências
 
-Passo 4: Instalando Dependências
+Para instalar as bibliotecas necessárias:
 
-Após a configuração inicial, foram instaladas as dependências necessárias para o projeto. Para instalar todas de uma vez, pode-se utilizar um arquivo requirements.txt:
-
+```sh
 pip install -r requirements.txt
+```
 
-Caso precise adicionar pacotes manualmente, utilize:
+Se precisar adicionar pacotes manualmente:
 
+```sh
 pip install nome-do-pacote
+```
 
-🛠️ Tecnologias Utilizadas
-Python 3.11.0
-CREWAI
-Ambiente virtual (venv)
-Gerenciamento de pacotes com PIP
+---
 
-📖 Objetivos do Projeto
-O projeto busca explorar a construção de agentes inteligentes utilizando a plataforma CREWAI, investigando seus métodos, funcionalidades e integração com aplicações de IA.
+## 📖 Como Funciona o Projeto
 
-📌 Como Contribuir
+1. O aluno informa a disciplina e suas dificuldades.  
+2. O **Coordenador de Estudos** cria um plano de estudos personalizado.  
+3. O **Especialista em Conteúdo** pesquisa vídeos no YouTube sobre o assunto.  
+4. O **Motivador** envia mensagens motivacionais ao aluno.  
+
+Essa abordagem permite que o estudante tenha um direcionamento claro, materiais de apoio e incentivo durante seu processo de aprendizado.
+
+---
+
+## 📌 Como Contribuir
+
 Caso deseje contribuir para este projeto, siga estas etapas:
 
-Fork o repositório
-Crie uma branch para a sua funcionalidade (git checkout -b minha-feature)
-Faça o commit das suas alterações (git commit -m 'Adiciona nova feature')
-Faça o push para a branch (git push origin minha-feature)
-Abra um Pull Request
+1. **Fork** o repositório.
+2. Crie uma **branch** para a sua funcionalidade (`git checkout -b minha-feature`).
+3. Faça o **commit** das suas alterações (`git commit -m 'Adiciona nova feature'`).
+4. Faça o **push** para a branch (`git push origin minha-feature`).
+5. Abra um **Pull Request**.
 
+---
+
+Esse README detalha de forma clara o propósito do projeto, os agentes envolvidos e as instruções de instalação. Caso precise adicionar algo mais específico, me avise! 😊
