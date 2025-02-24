@@ -13,12 +13,9 @@ from tarefas.tarefa_coachMotivador import tarefaCoach
 def formarEquipe(solicitacao):
     # Criando agentes
     coordenador = chamaCoordenador(solicitacao)
-    print(coordenador)
     especialista = chamaEspecialista(solicitacao)
-    print (especialista)
     motivador = chamaCoach()
-    print (motivador)
-    
+        
     # Criando tarefas
     tarefa_coordenador = tarefaCoordenador(solicitacao, coordenador)
     tarefa_especialista = tarefaEspecialista(solicitacao, especialista)

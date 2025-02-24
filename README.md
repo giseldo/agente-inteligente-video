@@ -110,5 +110,3 @@ Caso deseje contribuir para este projeto, siga estas etapas:
 5. Abra um **Pull Request**.
 
 ---
-
-Esse README detalha de forma clara o propósito do projeto, os agentes envolvidos e as instruções de instalação. Caso precise adicionar algo mais específico, me avise! 😊
