@@ -57,17 +57,17 @@ Para manter as dependências organizadas e evitar conflitos, utilize um **ambien
 
 #### Criando o ambiente virtual:
 ```sh
-python -m venv venv
+python -m venv .venv
 ```
 
 #### Ativando o ambiente virtual:
 - **Windows**:
   ```sh
-  venv\Scripts\activate
+  .venv\Scripts\activate
   ```
 - **Linux/macOS**:
   ```sh
-  source venv/bin/activate
+  source .venv/bin/activate
   ```
 
 Após a ativação, todas as bibliotecas instaladas estarão isoladas dentro desse ambiente.
