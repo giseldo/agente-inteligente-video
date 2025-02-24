@@ -1,3 +1,7 @@
+Autor Original Kleber: https://github.com/K-Galvao-Filho/AgentesInteligentes
+
+Giseldo: Adicionei o Gradio
+
 # Agentes Inteligentes – Plataforma CREWAI
 
 Este repositório tem como objetivo o desenvolvimento de uma aplicação baseada em agentes inteligentes utilizando a plataforma CREWAI. O projeto consiste na criação de três agentes que auxiliarão alunos no processo de aprendizado, fornecendo planos de estudo personalizados, conteúdos relevantes e mensagens motivacionais.
