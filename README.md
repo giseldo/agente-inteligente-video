@@ -48,7 +48,7 @@ Se necessário, faça o download da versão correta em: [Python Downloads](https
 Para garantir que as dependências sejam instaladas corretamente, atualize o **PIP**:
 
 ```sh
-pip install --upgrade pip
+python.exe -m pip install --upgrade pip
 ```
 
 ### Passo 3: Criando e Ativando o Ambiente Virtual

@@ -1,1 +1,5 @@
-crewai crewai-tools openai groq python-dotenv
+crewai 
+crewai-tools 
+openai 
+groq 
+python-dotenv
